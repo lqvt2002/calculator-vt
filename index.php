@@ -39,10 +39,10 @@
     <script src="https://code.jquery.com/jquery-latest.js"></script>
 	<style type="text/css">
         body{
-			background-image: url(./background1.jpg);
+			background-image: url(./Background1.jpg);
         }
 		table{
-			background-image: url(./background1.jpg);
+			background-image: url(./Background1.jpg);
 			margin: auto;
 		}
 		#result{
