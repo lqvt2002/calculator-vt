@@ -39,10 +39,10 @@
     <script src="https://code.jquery.com/jquery-latest.js"></script>
 	<style type="text/css">
         body{
-          
+			background-image: url(./background1.jpg);
         }
 		table{
-			background-color: #ABB1BA;
+			background-image: url(./background1.jpg);
 			margin: auto;
 		}
 		#result{
@@ -52,6 +52,7 @@
 		.btn{
 			width: 80px;
 			height: 80px;
+			background-image: url(./background_header.png);
 		}
 		#equ{
 			width: 80px;
@@ -64,18 +65,15 @@
         .header{
             width:100%; 
             height:60px; 
-            background-color:#ABB1BA;
-            margin-bottom:30px; 
-            text-align: left;
-            padding: 10px;
+            background-image: url(./background_header.png);
+			padding-left: 20px;
+			margin-bottom: 40px;
         }
 	</style>
 </head>
 <body>
     <header class="header">
-        <a href="https://www.facebook.com/lqvt2002" style="text-decoration: none;">
-            <h1 style="margin-top:10px; color: aliceblue">MÁY TÍNH ONLINE</h1>
-        </a>
+				<a href="https://www.facebook.com/lqvt2002"><img src="./logo1.png" alt="" style=" width:60px; height:60px"></a>			
     </header>
     <form action="" id="MyForm" method="GET" style="background-color: rgb(136, 139, 178);padding:30px; margin:15px; display: none;">
         <input type="number" name="a" placeholder="Enter A" >
